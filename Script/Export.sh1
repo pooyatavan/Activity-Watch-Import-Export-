@@ -1,6 +1,0 @@
-$filename = $Env:ComputerName + ".json"
-$OutDir = "C:\Users\" + (Get-ChildItem Env:USERNAME).Value + "\Dropbox"
-New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
-$path = Join-Path $OutDir $filename
-$awUrl = "http://localhost:5600/api/0/export"
-Invoke-WebRequest -Uri $awUrl -OutFile $path -UseBasicParsing
