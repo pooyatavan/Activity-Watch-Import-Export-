@@ -7,12 +7,12 @@ you need to douwnload and installed with default settings for all computers
 Link: https://activitywatch.net/
 # Windows Task Schedular
 to do automation and run every 30min (Or anytime you want) to export/import data in client or servers you need to create new basic task in windows Task Schedular.
-  Triger
-    1. set to One time
-    2. set a time for Repeat task every (minutes or houres)
-    3. set duration of to indefinitely
-  Action Tab
-    1. in action tab browse the bat location file
+Triger:
+1. set to One time
+2. set a time for Repeat task every (minutes or houres)
+3. set duration of to indefinitely
+Action Tab:
+1. in action tab browse the bat location file
 # Black screen command prompt
 for get ride of the black screen apear every time script run you need bat to exe application
 link: https://www.majorgeeks.com/mg/getmirror/bat_to_exe_converter,1.html
