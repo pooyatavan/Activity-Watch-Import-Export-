@@ -49,7 +49,7 @@ Install OneDrive (most Windows machines include it by default; if not, download 
 ## Requirements
 
 1. OneDrive app installed on all Windows clients and servers (all signed in with the **same account**).
-2. Python installed on the server (for running the import/export scripts).
+2. Python installed on the server (for running the import scripts).
 
 ## Important Notes
 
