@@ -16,8 +16,11 @@ link: https://www.majorgeeks.com/mg/getmirror/bat_to_exe_converter,1.html
 1. open the app and open the run.bat file
 2. from right in option tab set, exe format to: 64bit windows | screen (invisible)
 3. and click convert (64bit or 32 bit it dependency on your computers)
-# Onedrive
-in all computers must be use the one single onedrive account
+# OneDrive
+install OneDrive ( for must of windows machines have it by default. if you dont have it download and install it)
+signin or up to your account in all computers with one OneDrive account. (its important to use all computers use the one OneDrive account)
 # Requirement
-OneDrive app (for all windows clients or servers)
+OneDrive app (for all windows clients or servers with single )
 python (only for server)
+# Suggestion
+use OneDrive if you have not any cloud services (trust me)
