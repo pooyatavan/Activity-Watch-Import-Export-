@@ -1,32 +1,56 @@
-# Activity Watch Scripts (Import-Export)
-this project is for garb all system data from Activity Watch and import to server to show activity of all system in one place.
-Export: export script will save all data from Activity Watch via api to Json file and save it to OneDrive Cloud
-Import: import file delete every single bucket from last running and import update all buckets in OneDrive to the Activity Watch.
-# Activity Watch
-you need to douwnload and installed with default settings for all computers
-Link: https://activitywatch.net/
-# Windows Task Schedular
-to do automation and run every 30min (Or anytime you want) to export/import data in client or servers you need to create new basic task in windows Task Schedular.
-Triger:
-1. set to One time
-2. set a time for Repeat task every (minutes or houres)
-3. set duration of to indefinitely
---------------------------------
-Action Tab:
-1. in action tab browse the bat location file
-# Black screen command prompt
-for get ride of the black screen apear every time script run you need bat to exe application.
-link: https://www.majorgeeks.com/mg/getmirror/bat_to_exe_converter,1.html
-1. open the app and open the run.bat file
-2. from right in option tab set, exe format to: 64bit windows | screen (invisible)
-3. and click convert (64bit or 32 bit it dependency on your computers)
-# OneDrive
-install OneDrive ( for must of windows machines have it by default. if you dont have it download and install it)
-signin or up to your account in all computers with one OneDrive account. (its important to use all computers use the one OneDrive account)
-# Suggestion
-use OneDrive if you have not any cloud services (trust me)
-# Requirement
-1. OneDrive app (for all windows clients or servers with single )
-2. python (only for server)
-# important
-path in this project use OneDrive and if you wanna use any other cload services you need to change it.
+# ActivityWatch Scripts (Import / Export)
+
+This project collects ActivityWatch data from all your systems and imports it into a central server so you can see activity for every machine in one place.
+
+- **Export**: The export script reads all data from ActivityWatch via its API, saves it to a JSON file, and uploads that file to OneDrive [web:1].
+- **Import**: The import script deletes every existing bucket from the previous run, then imports and updates all buckets from the JSON files stored in OneDrive back into ActivityWatch [web:7].
+
+## ActivityWatch
+
+Install ActivityWatch with the default settings on all computers that you want to track [web:15].
+
+Link: [https://activitywatch.net/](https://activitywatch.net/)
+
+## Windows Task Scheduler
+
+Use Windows Task Scheduler to automate export/import so it runs every 30 minutes (or any schedule you prefer).
+
+**Trigger Setup**:
+1. Set "Begin the task" to "One time".
+2. Configure "Repeat task every" to the desired interval (minutes or hours).
+3. Set "For a duration of" to "Indefinitely".
+
+**Action Setup**:
+1. In the Actions tab, browse to and select the .bat file for the script you want to run.
+
+## Hiding Command Prompt Window
+
+To avoid the black command prompt window appearing every time the script runs, convert the .bat file to an .exe using a "bat to exe" tool.
+
+Tool: [Bat To Exe Converter](https://www.majorgeeks.com/mg/getmirror/bat_to_exe_converter,1.html)
+
+**Conversion Steps**:
+1. Open the app and load your run.bat file.
+2. In the Options tab, set the EXE format to: "64-bit Windows | Screen (Invisible)".
+3. Click Convert (choose 64-bit or 32-bit depending on your machines).
+
+## OneDrive Setup
+
+Install OneDrive (most Windows machines include it by default; if not, download and install it).
+
+- Sign in to the **same OneDrive account** on all computers.
+- All clients and the server must use a single shared OneDrive account to access the same sync folder.
+
+## Recommendations
+
+- Use OneDrive if you do not already have a cloud storage service (reliable and pre-installed on most Windows machines).
+- To use another cloud provider, update the paths in the scripts to point to that service's sync folder.
+
+## Requirements
+
+1. OneDrive app installed on all Windows clients and servers (all signed in with the **same account**).
+2. Python installed on the server (for running the import/export scripts).
+
+## Important Notes
+
+All paths in this project are configured for OneDrive. If you want to use another cloud service, update the paths in the scripts accordingly [web:1].
