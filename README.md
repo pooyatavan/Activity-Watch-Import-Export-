@@ -11,6 +11,7 @@ Triger:
 1. set to One time
 2. set a time for Repeat task every (minutes or houres)
 3. set duration of to indefinitely
+--------------------------------
 Action Tab:
 1. in action tab browse the bat location file
 # Black screen command prompt
