@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Bypass -File %~dp0export.ps1
+powershell -ExecutionPolicy Bypass -File %~dp0Export.ps1
