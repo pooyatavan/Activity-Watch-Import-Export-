@@ -26,7 +26,7 @@ signin or up to your account in all computers with one OneDrive account. (its im
 # Suggestion
 use OneDrive if you have not any cloud services (trust me)
 # Requirement
-OneDrive app (for all windows clients or servers with single )
-python (only for server)
+1. OneDrive app (for all windows clients or servers with single )
+2. python (only for server)
 # important
 path in this project use OneDrive and if you wanna use any other cload services you need to change it.
