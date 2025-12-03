@@ -15,7 +15,7 @@ Triger:
 Action Tab:
 1. in action tab browse the bat location file
 # Black screen command prompt
-for get ride of the black screen apear every time script run you need bat to exe application
+for get ride of the black screen apear every time script run you need bat to exe application.
 link: https://www.majorgeeks.com/mg/getmirror/bat_to_exe_converter,1.html
 1. open the app and open the run.bat file
 2. from right in option tab set, exe format to: 64bit windows | screen (invisible)
