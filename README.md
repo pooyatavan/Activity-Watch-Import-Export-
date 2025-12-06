@@ -50,7 +50,8 @@ Tool: [Bat To Exe Converter](https://www.majorgeeks.com/mg/getmirror/bat_to_exe_
 
 ## For Server
 - download and install Python with pip [Python](https://www.python.org/)
-- open command prompt and run this command: pip install aw_client
+- open command prompt and run this command: (pip install aw_client) and (pip install requests)
+- or simply open path source folder and run this command: pip install -r requirements.txt
   
 ## Recommendations
 
