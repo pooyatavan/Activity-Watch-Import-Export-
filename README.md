@@ -2,8 +2,8 @@
 
 This project collects ActivityWatch data from all your systems and imports it into a central server so you can see activity for every machine in one place.
 
-- **Export**: The export script reads all data from ActivityWatch via its API, saves it to a JSON file, and uploads that file to OneDrive [web:1].
-- **Import**: The import script deletes every existing bucket from the previous run, then imports and updates all buckets from the JSON files stored in OneDrive back into ActivityWatch [web:7].
+- **Export**: The export script reads all data from ActivityWatch via its API, saves it to a JSON file, and uploads that file to OneDrive.
+- **Import**: The import script deletes every existing bucket from the previous run, then imports and updates all buckets from the JSON files stored in OneDrive back into ActivityWatch.
 
 ## ActivityWatch
 
@@ -57,4 +57,4 @@ Install OneDrive (most Windows machines include it by default; if not, download 
 
 ## Important Notes
 
-All paths in this project are configured for OneDrive. If you want to use another cloud service, update the paths in the scripts accordingly [web:1].
+All paths in this project are configured for OneDrive. If you want to use another cloud service, update the paths in the scripts accordingly.
