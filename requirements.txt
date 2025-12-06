@@ -1,0 +1,2 @@
+aw_client==0.5.15
+Requests==2.32.5
