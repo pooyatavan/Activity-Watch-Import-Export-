@@ -7,7 +7,7 @@ This project collects ActivityWatch data from all your systems and imports it in
 
 ## ActivityWatch
 
-Install ActivityWatch with the default settings on all computers that you want to track [web:15].
+Install ActivityWatch with the default settings on all computers that you want to track.
 
 Link: [https://activitywatch.net/](https://activitywatch.net/)
 
@@ -41,6 +41,10 @@ Install OneDrive (most Windows machines include it by default; if not, download 
 - Sign in to the **same OneDrive account** on all computers.
 - All clients and the server must use a single shared OneDrive account to access the same sync folder.
 
+## For Server
+- download and install Python with pip [Python](https://www.python.org/)
+- open command prompt and run this command: pip install aw_client
+  
 ## Recommendations
 
 - Use OneDrive if you do not already have a cloud storage service (reliable and pre-installed on most Windows machines).
