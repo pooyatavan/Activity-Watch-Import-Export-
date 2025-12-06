@@ -5,11 +5,25 @@ This project collects ActivityWatch data from all your systems and imports it in
 - **Export**: The export script reads all data from ActivityWatch via its API, saves it to a JSON file, and uploads that file to OneDrive.
 - **Import**: The import script deletes every existing bucket from the previous run, then imports and updates all buckets from the JSON files stored in OneDrive back into ActivityWatch.
 
+## Requirements
+
+1. OneDrive app installed on all Windows clients and servers (all signed in with the **same account**).
+2. Python installed on the server (for running the import scripts).
+
+## Installation
+
 ## ActivityWatch
 
 Install ActivityWatch with the default settings on all computers that you want to track.
 
 Link: [https://activitywatch.net/](https://activitywatch.net/)
+
+## OneDrive Setup
+
+Install OneDrive (most Windows machines include it by default; if not, download and install it).
+
+- Sign in to the **same OneDrive account** on all computers.
+- All clients and the server must use a single shared OneDrive account to access the same sync folder.
 
 ## Windows Task Scheduler
 
@@ -34,13 +48,6 @@ Tool: [Bat To Exe Converter](https://www.majorgeeks.com/mg/getmirror/bat_to_exe_
 2. In the Options tab, set the EXE format to: "64-bit Windows | Screen (Invisible)".
 3. Click Convert (choose 64-bit or 32-bit depending on your machines).
 
-## OneDrive Setup
-
-Install OneDrive (most Windows machines include it by default; if not, download and install it).
-
-- Sign in to the **same OneDrive account** on all computers.
-- All clients and the server must use a single shared OneDrive account to access the same sync folder.
-
 ## For Server
 - download and install Python with pip [Python](https://www.python.org/)
 - open command prompt and run this command: pip install aw_client
@@ -49,11 +56,6 @@ Install OneDrive (most Windows machines include it by default; if not, download 
 
 - Use OneDrive if you do not already have a cloud storage service (reliable and pre-installed on most Windows machines).
 - To use another cloud provider, update the paths in the scripts to point to that service's sync folder.
-
-## Requirements
-
-1. OneDrive app installed on all Windows clients and servers (all signed in with the **same account**).
-2. Python installed on the server (for running the import scripts).
 
 ## Important Notes
 
